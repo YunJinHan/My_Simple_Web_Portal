@@ -1,4 +1,4 @@
-¿¿¿ ¿¿ ¿¿ Simple Web Portal
+My Simple Web Portal
 =============
 
 Scrapy Setting
