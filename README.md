@@ -8,12 +8,14 @@ Main Page
 Around Me
 -------------
 If you click that store information, the corresponding shop location appears on the map.
+
 ![Around Me](./screenshot/aroundme.png)
 
 IT info
 -------------
 Each minute brings forth the latest posting on the site.
 Similarly, you can view the original content by clicking on the corresponding postings.
+
 ![IT info](./screenshot/info.png)
 
 
