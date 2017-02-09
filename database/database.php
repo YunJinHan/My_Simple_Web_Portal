@@ -8,7 +8,7 @@ Class database
     {
         try
         {
-            $this->connection = new PDO("mysql:host=$host;dbname=crawlingDB", "root", "0000");
+            $this->connection = new PDO("mysql:host=$host;dbname=crawlingDB", "xxxx", "xxxx");
             $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
         catch (Exception $e)
