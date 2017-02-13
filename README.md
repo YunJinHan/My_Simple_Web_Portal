@@ -23,25 +23,25 @@ Scrapy Setting
 =============
 Crontab Setting
 -------------
-1. ÅÍ¹Ì³Î¿¡¼­ EDITOR=vim crontab -e ½ÇÇà
-2. ´ÙÀ½ Code ÀÛ¼º
+1. í„°ë¯¸ë„ì—ì„œ EDITOR=vim crontab -e ì‹¤í–‰
+2. ë‹¤ìŒ Code ì‘ì„±
 <pre><codei>
-MAILTO = '' // ÇØ´ç ¿¹¾à¾î ¼öÇà °á°ú¸¦ ¹Ş¾Æº¸·Á¸é ÇØ´ç °èÁ¤ÀÌ¸§À» Àû¾îÁÜ
+MAILTO = '' // í•´ë‹¹ ì˜ˆì•½ì–´ ìˆ˜í–‰ ê²°ê³¼ë¥¼ ë°›ì•„ë³´ë ¤ë©´ í•´ë‹¹ ê³„ì •ì´ë¦„ì„ ì ì–´ì¤Œ
 PATH=/usr/local/bin
-LC_CTYPE="utf-8" // ÇÑ±Û ÀÎÄÚµù ¹®Á¦
-* * * * * * cd crawling folder Àı´ë °æ·Î && scrapy crawl community
-// ¸Å ºĞ ½ÇÇà. ¾ÕÀÇ * ·Î crontab ½ÇÇà ºóµµ¸¦ °áÁ¤ÇØÁØ´Ù.
+LC_CTYPE="utf-8" // í•œê¸€ ì¸ì½”ë”© ë¬¸ì œ
+* * * * * * cd crawling folder ì ˆëŒ€ ê²½ë¡œ && scrapy crawl community
+// ë§¤ ë¶„ ì‹¤í–‰. ì•ì˜ * ë¡œ crontab ì‹¤í–‰ ë¹ˆë„ë¥¼ ê²°ì •í•´ì¤€ë‹¤.
 </code></pre>
-3. ¿Ï·á
+3. ì™„ë£Œ
 
 Database Setting
 -------------
-1. databse / createDB.sql ·Î Å×ÀÌºí ¹× µ¥ÀÌÅÍ º£ÀÌ½º »ı¼º
-2. crawling / pipeline.py ¿¡¼­ È¯°æ¿¡ ¸Â°Ô º¯¼ö ¼¼ÆÃ
-3. ¿Ï·á
+1. databse / createDB.sql ë¡œ í…Œì´ë¸” ë° ë°ì´í„° ë² ì´ìŠ¤ ìƒì„±
+2. crawling / pipeline.py ì—ì„œ í™˜ê²½ì— ë§ê²Œ ë³€ìˆ˜ ì„¸íŒ…
+3. ì™„ë£Œ
 
 API Setting
-=============
-1. index.php ÀÇ DAUM , NAVER API KEY Àû¿ë
-2. ¿Ï·á
+-------------
+1. index.php ì˜ DAUM , NAVER API KEY ì ìš©
+2. ì™„ë£Œ
 
